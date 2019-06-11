@@ -10,16 +10,16 @@ import Foundation
 
 public struct Response {
     
-    public internal(set) var url: URL?
-    public internal(set) var finalUrl: URL?
-    public internal(set) var canonicalUrl: String?
-    public internal(set) var title: String?
-    public internal(set) var description: String?
-    public internal(set) var images: [String]?
-    public internal(set) var image: String?
-    public internal(set) var icon: String?
-    public internal(set) var video: String?
-    public internal(set) var price: String?
+    public var url: URL?
+    public var finalUrl: URL?
+    public var canonicalUrl: String?
+    public var title: String?
+    public var description: String?
+    public var images: [String]?
+    public var image: String?
+    public var icon: String?
+    public var video: String?
+    public var price: String?
     
     public init() { }
     
